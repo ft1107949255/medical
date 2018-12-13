@@ -1,0 +1,17 @@
+@import './theme.stylus'
+
+.theme-default {
+  theme(#399bff, #3d464d, #fff, #399bff, #fff);
+}
+.theme-gray {
+  theme(#617296, #4d5f84, #fff, #fff, #666);
+}
+.theme-green {
+  theme(#43b7a3, #3d464d, #fff, #fff, #666);
+}
+.theme-yellow {
+  theme(#f89b32, #3d464d, #fff, #fff, #666);
+}
+.theme-purple {
+  theme(#6d72bf, #393b69, #c6c7d2, #fff, #666);
+}

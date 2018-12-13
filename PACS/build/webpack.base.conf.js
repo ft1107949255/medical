@@ -36,6 +36,17 @@ module.exports = {
       '@': resolve('src'),
       'bootstrap':resolve('src/assets/bootstrap'),
       'jqueryui':resolve('src/assets/jqueryui'),
+      'Static':resolve('src/static'),
+      'Components':resolve('src/components'),
+      'Config':resolve('src/config'),
+      'Routes':resolve('src/router'),
+      'Service':resolve('src/service'),
+      'Plugins':resolve('src/plugins'),
+      'Utils':resolve('src/utils'),
+      'Store':resolve('src/store'),
+      'Mock':resolve('src/mock'),
+      'Mixin':resolve('src/mixin'),
+      'Views':resolve('src/views')
     }
   },
   module: {

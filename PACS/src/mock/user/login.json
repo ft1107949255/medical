@@ -1,0 +1,7 @@
+{
+    "path": "/rest/tokens/json",
+    "data": {
+        "code": 2,
+        "message": "测试"
+    }
+}

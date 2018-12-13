@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  mounted () {
+  },
+  watch: {
+    $route (to) {
+      // Set document title
+      document.title = to.meta.title
+    }
+  }
 }
 </script>
 
@@ -16,6 +23,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*text-align: center;*/
+  /* text-align: center; */
 }
 </style>

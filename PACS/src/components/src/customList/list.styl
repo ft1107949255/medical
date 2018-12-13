@@ -1,0 +1,62 @@
+// 表单样式
+.inline-form {
+  box-sizing: border-box;
+  padding: 10px 10px 10px 0;
+}
+
+// 统一表单字段长度
+.item-width {
+  width: 205px !important;
+}
+
+// table 根据屏幕自定义高度
+.screen-height {
+  height: calc(100vh - 292px);
+  overflow-y: scroll;
+}
+// 列表中间模块样式
+.list-content {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  height: calc(100% - 30px);
+  .list-table {
+    flex: auto;
+    overflow-x: scroll;
+    &::-webkit-scrollbar, /deep/ .el-table::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .list-search {
+    flex: none;
+    opacity: 0;
+    border: 1px solid #eee;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 33;
+    overflow-y: auto;
+  }
+  .list-search_show {
+    opacity: 1;
+  }
+}
+
+// 列表底部样式
+.list-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  // margin-top: 30px;
+  height:30px;
+  // 左侧按钮组
+  .list-footer_left {
+    flex: auto;
+  }
+  // 右侧分页
+  .list-footer_paging {
+    flex: none;
+    text-align: right;
+  }
+}

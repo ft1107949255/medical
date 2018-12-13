@@ -25,25 +25,25 @@ let preams = {   // 传入0or 不传代表今天    负数是代表昨天和以�
     var days = d.getDay();
     switch (days) {
       case 1:
-        days = '星期一';
+        days = '周一';
         break;
       case 2:
-        days = '星期二';
+        days = '周二';
         break;
       case 3:
-        days = '星期三';
+        days = '周三';
         break;
       case 4:
-        days = '星期四';
+        days = '周四';
         break;
       case 5:
-        days = '星期五';
+        days = '周五';
         break;
       case 6:
-        days = '星期六';
+        days = '周六';
         break;
       case 0:
-        days = '星期日';
+        days = '周日';
         break;
 
     }
